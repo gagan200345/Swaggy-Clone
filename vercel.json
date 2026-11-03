@@ -1,0 +1,13 @@
+
+{
+  "rewrites": [
+    {
+      "source": "/swiggy-api/:path*",
+      "destination": "https://www.swiggy.com/:path*"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
